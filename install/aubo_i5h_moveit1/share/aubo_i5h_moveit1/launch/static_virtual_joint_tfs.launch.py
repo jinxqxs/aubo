@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/src/aubo_i5h_moveit1/launch/static_virtual_joint_tfs.launch.py

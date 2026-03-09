@@ -1,0 +1,11 @@
+{
+  "package_name": "aubo_ros2_common",
+  "non_idl_tuples": [
+    "/home/autumn/srtp_arm_ws/src/aubo_ros2_common:msg/Vector3.msg",
+    "/home/autumn/srtp_arm_ws/src/aubo_ros2_common:msg/AuboJointStates.msg",
+    "/home/autumn/srtp_arm_ws/src/aubo_ros2_common:msg/AuboTcpPose.msg",
+    "/home/autumn/srtp_arm_ws/src/aubo_ros2_common:msg/AuboArmEvent.msg",
+    "/home/autumn/srtp_arm_ws/src/aubo_ros2_common:msg/AuboArmStates.msg",
+    "/home/autumn/srtp_arm_ws/src/aubo_ros2_common:srv/AuboArmControl.srv"
+  ]
+}

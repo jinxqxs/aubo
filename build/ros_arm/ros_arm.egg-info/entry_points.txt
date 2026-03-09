@@ -1,0 +1,4 @@
+[console_scripts]
+pick_drop = ros_arm.pick_drop:main
+pick_drop2 = ros_arm.pick_drop2:main
+trajectory_forwarder = ros_arm.trajectory_forwarder:main

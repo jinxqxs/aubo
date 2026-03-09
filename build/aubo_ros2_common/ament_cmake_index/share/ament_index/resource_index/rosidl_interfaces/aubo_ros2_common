@@ -1,0 +1,12 @@
+msg/AuboArmEvent.idl
+msg/AuboArmEvent.msg
+msg/AuboArmStates.idl
+msg/AuboArmStates.msg
+msg/AuboJointStates.idl
+msg/AuboJointStates.msg
+msg/AuboTcpPose.idl
+msg/AuboTcpPose.msg
+msg/Vector3.idl
+msg/Vector3.msg
+srv/AuboArmControl.idl
+srv/AuboArmControl.srv

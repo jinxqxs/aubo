@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake /home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action
+[0.181s] -- The C compiler identification is GNU 13.3.0
+[0.731s] -- The CXX compiler identification is GNU 13.3.0
+[1.211s] -- Detecting C compiler ABI info
+[1.472s] -- Detecting C compiler ABI info - done
+[1.480s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.480s] -- Detecting C compile features
+[1.480s] -- Detecting C compile features - done
+[1.556s] -- Detecting CXX compiler ABI info
+[1.820s] -- Detecting CXX compiler ABI info - done
+[1.828s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.828s] -- Detecting CXX compile features
+[1.828s] -- Detecting CXX compile features - done
+[1.836s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.014s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.163s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.375s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.398s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.556s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.563s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.701s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.852s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.128s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.184s] -- Found control_msgs: 5.5.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[3.413s] -- Configuring done (3.4s)
+[3.433s] -- Generating done (0.0s)
+[3.439s] -- Build files have been written to: /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action
+[3.452s] Invoked command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake /home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action
+[3.453s] Invoking command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action -- -j12 -l12
+[3.531s] [ 75%] [32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/main.cpp.o[0m
+[3.532s] [ 75%] [32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_uniform_sample_filter.cpp.o[0m
+[3.532s] [ 75%] [32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_trajectory_action.cpp.o[0m
+[6.836s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:[m[K In constructor ‘[01m[Kaubo_ros2_trajectory_action::JointTrajectoryAction::[01;32m[KJointTrajectoryAction[m[K(std::string)[m[K’:
+[6.836s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:19:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontroller_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.836s]    19 | TrajectoryAction::JointTrajectoryAction([01;35m[Kstd::string controller_name[m[K):Node("aubo_ros2_trajectory_action")
+[6.836s]       |                                         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[6.837s] 
+[6.849s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse aubo_ros2_trajectory_action::JointTrajectoryAction::[01;32m[KhandleCancel[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[6.849s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:123:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.849s]   123 | ::handleCancel([01;35m[Kconst std::shared_ptr<GoalHandleFjt> goal_handle[m[K)
+[6.849s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[6.849s] 
+[15.756s] [100%] [32m[1mLinking CXX executable aubo_ros2_trajectory_action[0m
+[15.907s] /usr/bin/ld: CMakeFiles/aubo_ros2_trajectory_action.dir/src/main.cpp.o: in function `main':
+[15.913s] main.cpp:(.text+0x0): multiple definition of `main'; CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_trajectory_action.cpp.o:aubo_ros2_trajectory_action.cpp:(.text+0x5556): first defined here
+[16.294s] collect2: error: ld returned 1 exit status
+[16.297s] gmake[2]: *** [CMakeFiles/aubo_ros2_trajectory_action.dir/build.make:249: aubo_ros2_trajectory_action] Error 1
+[16.297s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aubo_ros2_trajectory_action.dir/all] Error 2
+[16.297s] gmake: *** [Makefile:146: all] Error 2
+[16.301s] Invoked command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action -- -j12 -l12

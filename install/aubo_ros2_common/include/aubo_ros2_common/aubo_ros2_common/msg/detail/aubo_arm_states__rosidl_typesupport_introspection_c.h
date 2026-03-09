@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_typesupport_introspection_c/aubo_ros2_common/msg/detail/aubo_arm_states__rosidl_typesupport_introspection_c.h

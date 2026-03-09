@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This does not replace URDF, and is not an extension of URDF.
+    This is a format for representing semantic information about the robot structure.
+    A URDF file must exist for this robot as well, where the joints and the links that are referenced are defined
+-->
+<robot name="aubo_i5H">
+    <!--GROUPS: Representation of a set of joints and links. This can be useful for specifying DOF to plan for, defining arms, end effectors, etc-->
+    <group name="arm">
+        <joint name="virtual_joints"/>
+        <joint name="world_joint"/>
+        <joint name="shoulder_joint"/>
+        <joint name="upperArm_joint"/>
+        <joint name="foreArm_joint"/>
+        <joint name="wrist1_joint"/>
+        <joint name="wrist2_joint"/>
+        <joint name="wrist3_joint"/>
+    </group>
+    <group name="hand">
+        <joint name="afinger1_joint"/>
+    </group>
+
+    <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
+    <group_state name="home" group="arm">
+        <joint name="foreArm_joint" value="0"/>
+        <joint name="shoulder_joint" value="0"/>
+        <joint name="upperArm_joint" value="0"/>
+        <joint name="wrist1_joint" value="0"/>
+        <joint name="wrist2_joint" value="0"/>
+        <joint name="wrist3_joint" value="0"/>
+    </group_state>
+    <group_state name="close" group="hand">
+        <joint name="afinger1_joint" value="0.03"/>
+    </group_state>
+    <group_state name="open" group="hand">
+        <joint name="afinger1_joint" value="-0.02"/>
+    </group_state>
+
+    <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
+    <end_effector name="end_effort" parent_link="wrist3_Link" group="hand"/>
+    <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
+    <virtual_joint name="virtual_joints" type="fixed" parent_frame="world" child_link="world"/>
+    <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <disable_collisions link1="abase_link" link2="afinger1_link" reason="Adjacent"/>
+    <disable_collisions link1="abase_link" link2="afinger2_link" reason="Adjacent"/>
+    <disable_collisions link1="abase_link" link2="wrist1_Link" reason="Never"/>
+    <disable_collisions link1="abase_link" link2="wrist2_Link" reason="Never"/>
+    <disable_collisions link1="abase_link" link2="wrist3_Link" reason="Adjacent"/>
+    <disable_collisions link1="afinger1_link" link2="afinger2_link" reason="Never"/>
+    <disable_collisions link1="afinger1_link" link2="wrist1_Link" reason="Never"/>
+    <disable_collisions link1="afinger1_link" link2="wrist2_Link" reason="Never"/>
+    <disable_collisions link1="afinger1_link" link2="wrist3_Link" reason="Never"/>
+    <disable_collisions link1="afinger2_link" link2="wrist1_Link" reason="Never"/>
+    <disable_collisions link1="afinger2_link" link2="wrist2_Link" reason="Never"/>
+    <disable_collisions link1="afinger2_link" link2="wrist3_Link" reason="Never"/>
+    <disable_collisions link1="base_link" link2="shoulder_Link" reason="Adjacent"/>
+    <disable_collisions link1="foreArm_Link" link2="upperArm_Link" reason="Adjacent"/>
+    <disable_collisions link1="foreArm_Link" link2="wrist1_Link" reason="Adjacent"/>
+    <disable_collisions link1="shoulder_Link" link2="upperArm_Link" reason="Adjacent"/>
+    <disable_collisions link1="shoulder_Link" link2="wrist1_Link" reason="Never"/>
+    <disable_collisions link1="wrist1_Link" link2="wrist2_Link" reason="Adjacent"/>
+    <disable_collisions link1="wrist1_Link" link2="wrist3_Link" reason="Never"/>
+    <disable_collisions link1="wrist2_Link" link2="wrist3_Link" reason="Adjacent"/>
+</robot>

@@ -1,0 +1,18 @@
+{
+  "package_name": "aubo_ros2_common",
+  "output_dir": "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_generator_type_description/aubo_ros2_common",
+  "idl_tuples": [
+    "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/Vector3.idl",
+    "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboJointStates.idl",
+    "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboTcpPose.idl",
+    "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboArmEvent.idl",
+    "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboArmStates.idl",
+    "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:srv/AuboArmControl.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

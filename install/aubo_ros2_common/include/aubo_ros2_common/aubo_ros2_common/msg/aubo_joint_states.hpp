@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_generator_cpp/aubo_ros2_common/msg/aubo_joint_states.hpp

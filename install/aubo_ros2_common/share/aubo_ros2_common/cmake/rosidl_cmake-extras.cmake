@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_cmake/rosidl_cmake-extras.cmake

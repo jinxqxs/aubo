@@ -1,0 +1,4 @@
+source;share/aubo_i5h_moveit1/local_setup.bash
+source;share/aubo_i5h_moveit1/local_setup.dsv
+source;share/aubo_i5h_moveit1/local_setup.sh
+source;share/aubo_i5h_moveit1/local_setup.zsh

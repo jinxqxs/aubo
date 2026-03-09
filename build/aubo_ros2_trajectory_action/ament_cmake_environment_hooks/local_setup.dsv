@@ -1,0 +1,2 @@
+source;share/aubo_ros2_trajectory_action/environment/ament_prefix_path.sh
+source;share/aubo_ros2_trajectory_action/environment/path.sh

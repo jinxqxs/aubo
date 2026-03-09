@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<sdf version="1.11">
+  <model name='woodenblock'>
+    <static>false</static>
+    <pose>0.0 0.0 0 0 0 0</pose>
+    <link name='box'>
+      <inertial auto="true">
+        <density>5000</density>
+      </inertial>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>0.03 0.03 0.03</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+              <kp>30000</kp>
+              <kd>15.0</kd>
+            </ode>
+          </contact>
+          <bounce>
+            <restitution_coefficient>0.5</restitution_coefficient>
+            <threshold>0.01</threshold>
+          </bounce>
+          <friction>
+            <ode>
+              <mu>20</mu>
+              <mu2>20</mu2>
+            </ode>
+            <torsional>
+              <ode>
+                <coefficient>5.0</coefficient>
+              </ode>
+            </torsional>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>0.03 0.03 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0 1 0 1</ambient>
+          <diffuse>0 1 0 1</diffuse>
+          <specular>0 1 0 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

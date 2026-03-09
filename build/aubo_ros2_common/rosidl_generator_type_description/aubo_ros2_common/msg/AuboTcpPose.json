@@ -1,0 +1,96 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "aubo_ros2_common/msg/AuboTcpPose",
+      "fields": [
+        {
+          "name": "target_position",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "aubo_ros2_common/msg/Vector3"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "target_rotation",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "aubo_ros2_common/msg/Vector3"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "actual_position",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "aubo_ros2_common/msg/Vector3"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "actual_rotation",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "aubo_ros2_common/msg/Vector3"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "aubo_ros2_common/msg/Vector3",
+        "fields": [
+          {
+            "name": "x",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "y",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "z",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "aubo_ros2_common/msg/AuboTcpPose",
+      "hash_string": "RIHS01_a7064dd178c2fb58fd92cb6c63f7bc787b2a6ea07220f666d016a4397b02c4da"
+    },
+    {
+      "type_name": "aubo_ros2_common/msg/Vector3",
+      "hash_string": "RIHS01_3d6ec47e7d90454ccc90bfa7eb50f03e7d9985791876abec7801907f93076776"
+    }
+  ]
+}

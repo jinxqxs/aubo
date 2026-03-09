@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/src/aubo_ros2_common/msg/Vector3.msg

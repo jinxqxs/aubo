@@ -1,0 +1,50 @@
+[0.019s] Invoking command in '/home/autumn/srtp_arm_ws/build/dh_gripper_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/autumn/srtp_arm_ws/src/dh_gripper_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autumn/srtp_arm_ws/install/dh_gripper_driver
+[0.213s] -- The C compiler identification is GNU 13.3.0
+[0.926s] -- The CXX compiler identification is GNU 13.3.0
+[1.566s] -- Detecting C compiler ABI info
+[1.919s] -- Detecting C compiler ABI info - done
+[1.931s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.931s] -- Detecting C compile features
+[1.931s] -- Detecting C compile features - done
+[2.033s] -- Detecting CXX compiler ABI info
+[2.389s] -- Detecting CXX compiler ABI info - done
+[2.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.400s] -- Detecting CXX compile features
+[2.401s] -- Detecting CXX compile features - done
+[2.410s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.637s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.730s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.827s] -- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[3.203s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.244s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.844s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.970s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.982s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.054s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.205s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.211s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.408s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.413s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.427s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[4.528s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.987s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[6.988s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[6.988s]   asked CMake to find a package configuration file provided by "serial", but
+[6.988s]   CMake did not find one.
+[6.988s] 
+[6.988s]   Could not find a package configuration file provided by "serial" with any
+[6.989s]   of the following names:
+[6.989s] 
+[6.989s]     serialConfig.cmake
+[6.989s]     serial-config.cmake
+[6.989s] 
+[6.989s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[6.989s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[6.989s]   provides a separate development package or SDK, be sure it has been
+[6.989s]   installed.
+[6.989s] 
+[6.990s] [0m
+[6.990s] -- Configuring incomplete, errors occurred!
+[7.007s] Invoked command in '/home/autumn/srtp_arm_ws/build/dh_gripper_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/autumn/srtp_arm_ws/src/dh_gripper_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autumn/srtp_arm_ws/install/dh_gripper_driver

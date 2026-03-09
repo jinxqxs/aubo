@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aubo_ros2_common/msg/AuboArmStates.msg
+// generated code does not contain a copyright notice
+
+
+module aubo_ros2_common {
+  module msg {
+    struct AuboArmStates {
+      int16 move_type;
+
+      int16 collision_level;
+
+      boolean arm_power_status;
+
+      boolean collision_stopped;
+
+      boolean emergency_stopped;
+
+      boolean singularity_stopped;
+
+      boolean protective_stopped;
+
+      boolean in_motion;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/uninstall.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/aubo_ros2_trajectory_action_uninstall.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/aubo_ros2_trajectory_action.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/test.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/edit_cache.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/rebuild_cache.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/list_install_components.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/install.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/install/local.dir
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/CMakeFiles/install/strip.dir

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from aubo_ros2_common/srv/AuboArmControl.srv
+// generated code does not contain a copyright notice
+
+
+module aubo_ros2_common {
+  module srv {
+    struct AuboArmControl_Request {
+      string cmd;
+
+      string type;
+
+      sequence<double> tcp_offset;
+
+      double payload;
+
+      int16 collision_level;
+
+      sequence<double> joints;
+
+      double speed_fraction;
+    };
+    struct AuboArmControl_Response {
+      boolean result;
+
+      string result_code;
+    };
+  };
+};

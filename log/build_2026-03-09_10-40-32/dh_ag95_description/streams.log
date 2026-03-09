@@ -1,0 +1,38 @@
+[0.025s] Invoking command in '/home/autumn/srtp_arm_ws/build/dh_ag95_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/dh_ag95_description -- -j12 -l12
+[0.206s] Invoked command in '/home/autumn/srtp_arm_ws/build/dh_ag95_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/dh_ag95_description -- -j12 -l12
+[0.232s] Invoking command in '/home/autumn/srtp_arm_ws/build/dh_ag95_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --install /home/autumn/srtp_arm_ws/build/dh_ag95_description
+[0.250s] -- Install configuration: ""
+[0.252s] -- Execute custom install script
+[0.254s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/launch/view_dh_ag95.launch.py
+[0.255s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/base_link.stl
+[0.256s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/finger.stl
+[0.256s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/finger_pad.stl
+[0.257s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/gripper_body.stl
+[0.257s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/inner_knuckle.stl
+[0.257s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/outer_knuckle.stl
+[0.257s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/base_link.stl
+[0.257s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/finger.stl
+[0.258s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/finger_pad.stl
+[0.258s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/gripper_body.stl
+[0.258s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/inner_knuckle.stl
+[0.258s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/outer_knuckle.stl
+[0.258s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/rviz/view_robot.rviz
+[0.258s] -- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/urdf/dh_ag95.ros2_control.xacro
+[0.282s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/urdf/dh_ag95.urdf.xacro
+[0.282s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/urdf/dh_ag95_macro.xacro
+[0.282s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/ament_index/resource_index/package_run_dependencies/dh_ag95_description
+[0.283s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/ament_index/resource_index/parent_prefix_path/dh_ag95_description
+[0.283s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/ament_prefix_path.sh
+[0.283s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/ament_prefix_path.dsv
+[0.284s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/path.sh
+[0.284s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/path.dsv
+[0.284s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.bash
+[0.284s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.sh
+[0.285s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.zsh
+[0.285s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.dsv
+[0.285s] -- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/package.dsv
+[0.309s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/ament_index/resource_index/packages/dh_ag95_description
+[0.309s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/cmake/dh_ag95_descriptionConfig.cmake
+[0.309s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/cmake/dh_ag95_descriptionConfig-version.cmake
+[0.310s] -- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/package.xml
+[0.315s] Invoked command in '/home/autumn/srtp_arm_ws/build/dh_ag95_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --install /home/autumn/srtp_arm_ws/build/dh_ag95_description

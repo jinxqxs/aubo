@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000529] (-) JobUnselected: {'identifier': 'aubo_description'}
+[0.000573] (-) JobUnselected: {'identifier': 'aubo_i5h_moveit1'}
+[0.000604] (-) JobUnselected: {'identifier': 'aubo_ros2_common'}
+[0.000632] (-) JobUnselected: {'identifier': 'aubo_ros2_driver'}
+[0.000659] (-) JobUnselected: {'identifier': 'ros_arm'}
+[0.000688] (aubo_ros2_trajectory_action) JobQueued: {'identifier': 'aubo_ros2_trajectory_action', 'dependencies': OrderedDict()}
+[0.000718] (aubo_ros2_trajectory_action) JobStarted: {'identifier': 'aubo_ros2_trajectory_action'}
+[0.010842] (aubo_ros2_trajectory_action) JobProgress: {'identifier': 'aubo_ros2_trajectory_action', 'progress': 'cmake'}
+[0.013528] (aubo_ros2_trajectory_action) Command: {'cmd': ['/usr/bin/cmake', '/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action'], 'cwd': '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'autumn', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/autumn/srtp_arm_ws/install/aubo_ros2_driver/lib:/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/autumn', 'OLDPWD': '/home/autumn/srtp_arm_ws', 'TERM_PROGRAM_VERSION': '1.110.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-67821b9c-6969-40cc-850a-21b560ce6140.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/autumn/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu2', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/autumn/srtp_arm_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'autumn', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/707_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/autumn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/autumn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/bin/remote-cli:/home/autumn/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Vmware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/d/python:/mnt/d/python/Scripts:/mnt/d/cursor/resources/app/bin:/mnt/c/Users/autumn/.cargo/bin:/mnt/d/masm32/bin:/mnt/d/vscode/Microsoft VS Code/bin:/snap/bin:/home/autumn/.local/bin:/home/autumn/.local/bin:/home/autumn/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/home/autumn/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'password': '0923', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/autumn/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-4a984ac849cd793d.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/autumn/.vscode-server/data/User/workspaceStorage/97dc9644f208b312dcc81fe1d4059587/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7db006a85d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action:/home/autumn/srtp_arm_ws/install/aubo_ros2_driver:/home/autumn/srtp_arm_ws/install/aubo_ros2_common:/home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/autumn/srtp_arm_ws/build/ros_arm:/home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages:/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages:/home/autumn/srtp_arm_ws/build/aubo_description:/home/autumn/srtp_arm_ws/install/aubo_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action:/home/autumn/srtp_arm_ws/install/aubo_ros2_driver:/home/autumn/srtp_arm_ws/install/aubo_ros2_common:/home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099665] (-) TimerEvent: {}
+[0.181252] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199749] (-) TimerEvent: {}
+[0.300509] (-) TimerEvent: {}
+[0.401355] (-) TimerEvent: {}
+[0.501818] (-) TimerEvent: {}
+[0.602380] (-) TimerEvent: {}
+[0.702861] (-) TimerEvent: {}
+[0.731900] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.803082] (-) TimerEvent: {}
+[0.904464] (-) TimerEvent: {}
+[1.005847] (-) TimerEvent: {}
+[1.106582] (-) TimerEvent: {}
+[1.207824] (-) TimerEvent: {}
+[1.211207] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.307975] (-) TimerEvent: {}
+[1.408378] (-) TimerEvent: {}
+[1.472526] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.480287] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.480640] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.481086] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.508518] (-) TimerEvent: {}
+[1.556894] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.608673] (-) TimerEvent: {}
+[1.709077] (-) TimerEvent: {}
+[1.809587] (-) TimerEvent: {}
+[1.820225] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.828110] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.828402] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.828820] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.836858] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.910448] (-) TimerEvent: {}
+[2.010814] (-) TimerEvent: {}
+[2.014429] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.085532] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.111124] (-) TimerEvent: {}
+[2.163693] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.211416] (-) TimerEvent: {}
+[2.311911] (-) TimerEvent: {}
+[2.375996] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.398940] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.412121] (-) TimerEvent: {}
+[2.423752] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.451258] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.512256] (-) TimerEvent: {}
+[2.556946] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.563213] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.612495] (-) TimerEvent: {}
+[2.701603] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.712642] (-) TimerEvent: {}
+[2.813692] (-) TimerEvent: {}
+[2.852193] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.914563] (-) TimerEvent: {}
+[2.940649] (aubo_ros2_trajectory_action) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.015562] (-) TimerEvent: {}
+[3.115959] (-) TimerEvent: {}
+[3.128907] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[3.184512] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Found control_msgs: 5.5.0 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[3.216851] (-) TimerEvent: {}
+[3.317363] (-) TimerEvent: {}
+[3.413666] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Configuring done (3.4s)\n'}
+[3.417577] (-) TimerEvent: {}
+[3.434026] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.439133] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'-- Build files have been written to: /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action\n'}
+[3.452250] (aubo_ros2_trajectory_action) CommandEnded: {'returncode': 0}
+[3.453662] (aubo_ros2_trajectory_action) JobProgress: {'identifier': 'aubo_ros2_trajectory_action', 'progress': 'build'}
+[3.453699] (aubo_ros2_trajectory_action) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action', '--', '-j12', '-l12'], 'cwd': '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'autumn', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/autumn/srtp_arm_ws/install/aubo_ros2_driver/lib:/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/autumn', 'OLDPWD': '/home/autumn/srtp_arm_ws', 'TERM_PROGRAM_VERSION': '1.110.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-67821b9c-6969-40cc-850a-21b560ce6140.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/autumn/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu2', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/autumn/srtp_arm_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'autumn', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/707_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/autumn/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/autumn/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/autumn/.vscode-server/bin/0870c2a0c7c0564e7631bfed2675573a94ba4455/bin/remote-cli:/home/autumn/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Vmware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/d/python:/mnt/d/python/Scripts:/mnt/d/cursor/resources/app/bin:/mnt/c/Users/autumn/.cargo/bin:/mnt/d/masm32/bin:/mnt/d/vscode/Microsoft VS Code/bin:/snap/bin:/home/autumn/.local/bin:/home/autumn/.local/bin:/home/autumn/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/home/autumn/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'password': '0923', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/autumn/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-4a984ac849cd793d.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/autumn/.vscode-server/data/User/workspaceStorage/97dc9644f208b312dcc81fe1d4059587/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7db006a85d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action:/home/autumn/srtp_arm_ws/install/aubo_ros2_driver:/home/autumn/srtp_arm_ws/install/aubo_ros2_common:/home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/autumn/srtp_arm_ws/build/ros_arm:/home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages:/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages:/home/autumn/srtp_arm_ws/build/aubo_description:/home/autumn/srtp_arm_ws/install/aubo_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action:/home/autumn/srtp_arm_ws/install/aubo_ros2_driver:/home/autumn/srtp_arm_ws/install/aubo_ros2_common:/home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[3.517872] (-) TimerEvent: {}
+[3.531950] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/main.cpp.o\x1b[0m\n'}
+[3.532184] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_uniform_sample_filter.cpp.o\x1b[0m\n'}
+[3.532254] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_trajectory_action.cpp.o\x1b[0m\n'}
+[3.618457] (-) TimerEvent: {}
+[3.719580] (-) TimerEvent: {}
+[3.820454] (-) TimerEvent: {}
+[3.920897] (-) TimerEvent: {}
+[4.021635] (-) TimerEvent: {}
+[4.122624] (-) TimerEvent: {}
+[4.223753] (-) TimerEvent: {}
+[4.325440] (-) TimerEvent: {}
+[4.427893] (-) TimerEvent: {}
+[4.529557] (-) TimerEvent: {}
+[4.630113] (-) TimerEvent: {}
+[4.732842] (-) TimerEvent: {}
+[4.834736] (-) TimerEvent: {}
+[4.935252] (-) TimerEvent: {}
+[5.037768] (-) TimerEvent: {}
+[5.140522] (-) TimerEvent: {}
+[5.243268] (-) TimerEvent: {}
+[5.343667] (-) TimerEvent: {}
+[5.444356] (-) TimerEvent: {}
+[5.545849] (-) TimerEvent: {}
+[5.648707] (-) TimerEvent: {}
+[5.751451] (-) TimerEvent: {}
+[5.853167] (-) TimerEvent: {}
+[5.955934] (-) TimerEvent: {}
+[6.058656] (-) TimerEvent: {}
+[6.160581] (-) TimerEvent: {}
+[6.263365] (-) TimerEvent: {}
+[6.363977] (-) TimerEvent: {}
+[6.466724] (-) TimerEvent: {}
+[6.567999] (-) TimerEvent: {}
+[6.668895] (-) TimerEvent: {}
+[6.769410] (-) TimerEvent: {}
+[6.836491] (aubo_ros2_trajectory_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kaubo_ros2_trajectory_action::JointTrajectoryAction::\x1b[01;32m\x1b[KJointTrajectoryAction\x1b[m\x1b[K(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.836906] (aubo_ros2_trajectory_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:19:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontroller_name\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.837040] (aubo_ros2_trajectory_action) StderrLine: {'line': b'   19 | TrajectoryAction::JointTrajectoryAction(\x1b[01;35m\x1b[Kstd::string controller_name\x1b[m\x1b[K):Node("aubo_ros2_trajectory_action")\n'}
+[6.837143] (aubo_ros2_trajectory_action) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.837224] (aubo_ros2_trajectory_action) StderrLine: {'line': b'\n'}
+[6.849024] (aubo_ros2_trajectory_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse aubo_ros2_trajectory_action::JointTrajectoryAction::\x1b[01;32m\x1b[KhandleCancel\x1b[m\x1b[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.849306] (aubo_ros2_trajectory_action) StderrLine: {'line': b'\x1b[01m\x1b[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:123:104:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.849400] (aubo_ros2_trajectory_action) StderrLine: {'line': b'  123 | ::handleCancel(\x1b[01;35m\x1b[Kconst std::shared_ptr<GoalHandleFjt> goal_handle\x1b[m\x1b[K)\n'}
+[6.849486] (aubo_ros2_trajectory_action) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.849566] (aubo_ros2_trajectory_action) StderrLine: {'line': b'\n'}
+[6.870077] (-) TimerEvent: {}
+[6.972619] (-) TimerEvent: {}
+[7.075378] (-) TimerEvent: {}
+[7.177666] (-) TimerEvent: {}
+[7.280516] (-) TimerEvent: {}
+[7.382012] (-) TimerEvent: {}
+[7.484515] (-) TimerEvent: {}
+[7.587366] (-) TimerEvent: {}
+[7.687826] (-) TimerEvent: {}
+[7.788524] (-) TimerEvent: {}
+[7.888930] (-) TimerEvent: {}
+[7.990058] (-) TimerEvent: {}
+[8.090538] (-) TimerEvent: {}
+[8.191787] (-) TimerEvent: {}
+[8.292271] (-) TimerEvent: {}
+[8.393282] (-) TimerEvent: {}
+[8.493794] (-) TimerEvent: {}
+[8.594379] (-) TimerEvent: {}
+[8.694802] (-) TimerEvent: {}
+[8.795345] (-) TimerEvent: {}
+[8.896225] (-) TimerEvent: {}
+[8.999136] (-) TimerEvent: {}
+[9.099655] (-) TimerEvent: {}
+[9.202685] (-) TimerEvent: {}
+[9.303213] (-) TimerEvent: {}
+[9.404093] (-) TimerEvent: {}
+[9.504625] (-) TimerEvent: {}
+[9.605883] (-) TimerEvent: {}
+[9.706476] (-) TimerEvent: {}
+[9.809838] (-) TimerEvent: {}
+[9.910414] (-) TimerEvent: {}
+[10.013762] (-) TimerEvent: {}
+[10.114225] (-) TimerEvent: {}
+[10.215999] (-) TimerEvent: {}
+[10.316716] (-) TimerEvent: {}
+[10.417312] (-) TimerEvent: {}
+[10.517914] (-) TimerEvent: {}
+[10.621285] (-) TimerEvent: {}
+[10.721986] (-) TimerEvent: {}
+[10.825336] (-) TimerEvent: {}
+[10.925865] (-) TimerEvent: {}
+[11.028737] (-) TimerEvent: {}
+[11.129610] (-) TimerEvent: {}
+[11.232782] (-) TimerEvent: {}
+[11.333743] (-) TimerEvent: {}
+[11.434463] (-) TimerEvent: {}
+[11.535322] (-) TimerEvent: {}
+[11.637876] (-) TimerEvent: {}
+[11.739265] (-) TimerEvent: {}
+[11.841870] (-) TimerEvent: {}
+[11.942940] (-) TimerEvent: {}
+[12.045578] (-) TimerEvent: {}
+[12.146638] (-) TimerEvent: {}
+[12.247462] (-) TimerEvent: {}
+[12.348641] (-) TimerEvent: {}
+[12.451359] (-) TimerEvent: {}
+[12.552591] (-) TimerEvent: {}
+[12.655136] (-) TimerEvent: {}
+[12.756477] (-) TimerEvent: {}
+[12.858983] (-) TimerEvent: {}
+[12.959493] (-) TimerEvent: {}
+[13.061090] (-) TimerEvent: {}
+[13.162970] (-) TimerEvent: {}
+[13.265583] (-) TimerEvent: {}
+[13.368200] (-) TimerEvent: {}
+[13.470796] (-) TimerEvent: {}
+[13.573880] (-) TimerEvent: {}
+[13.674706] (-) TimerEvent: {}
+[13.777209] (-) TimerEvent: {}
+[13.877635] (-) TimerEvent: {}
+[13.978785] (-) TimerEvent: {}
+[14.079944] (-) TimerEvent: {}
+[14.181329] (-) TimerEvent: {}
+[14.282554] (-) TimerEvent: {}
+[14.383846] (-) TimerEvent: {}
+[14.484366] (-) TimerEvent: {}
+[14.585478] (-) TimerEvent: {}
+[14.686522] (-) TimerEvent: {}
+[14.789110] (-) TimerEvent: {}
+[14.889542] (-) TimerEvent: {}
+[14.990013] (-) TimerEvent: {}
+[15.090561] (-) TimerEvent: {}
+[15.191714] (-) TimerEvent: {}
+[15.295074] (-) TimerEvent: {}
+[15.396288] (-) TimerEvent: {}
+[15.499774] (-) TimerEvent: {}
+[15.602338] (-) TimerEvent: {}
+[15.702971] (-) TimerEvent: {}
+[15.756238] (aubo_ros2_trajectory_action) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable aubo_ros2_trajectory_action\x1b[0m\n'}
+[15.803205] (-) TimerEvent: {}
+[15.903708] (-) TimerEvent: {}
+[15.907950] (aubo_ros2_trajectory_action) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/aubo_ros2_trajectory_action.dir/src/main.cpp.o: in function `main':\n"}
+[15.913928] (aubo_ros2_trajectory_action) StderrLine: {'line': b"main.cpp:(.text+0x0): multiple definition of `main'; CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_trajectory_action.cpp.o:aubo_ros2_trajectory_action.cpp:(.text+0x5556): first defined here\n"}
+[16.004454] (-) TimerEvent: {}
+[16.105693] (-) TimerEvent: {}
+[16.207140] (-) TimerEvent: {}
+[16.295029] (aubo_ros2_trajectory_action) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[16.297385] (aubo_ros2_trajectory_action) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aubo_ros2_trajectory_action.dir/build.make:249: aubo_ros2_trajectory_action] Error 1\n'}
+[16.297858] (aubo_ros2_trajectory_action) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aubo_ros2_trajectory_action.dir/all] Error 2\n'}
+[16.298139] (aubo_ros2_trajectory_action) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.301303] (aubo_ros2_trajectory_action) CommandEnded: {'returncode': 2}
+[16.307342] (-) TimerEvent: {}
+[16.310734] (aubo_ros2_trajectory_action) JobEnded: {'identifier': 'aubo_ros2_trajectory_action', 'rc': 2}
+[16.312013] (-) EventReactorShutdown: {}

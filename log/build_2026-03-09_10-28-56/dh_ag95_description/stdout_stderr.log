@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/autumn/srtp_arm_ws/build/dh_ag95_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/launch/view_dh_ag95.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/base_link.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/finger.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/finger_pad.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/gripper_body.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/inner_knuckle.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/collision/outer_knuckle.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/base_link.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/finger.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/finger_pad.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/gripper_body.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/inner_knuckle.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/meshes/visual/outer_knuckle.stl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/rviz/view_robot.rviz
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/urdf/dh_ag95.urdf.xacro
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/urdf/dh_ag95_macro.xacro
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/ament_index/resource_index/package_run_dependencies/dh_ag95_description
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/ament_index/resource_index/parent_prefix_path/dh_ag95_description
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/environment/path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.bash
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.zsh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/local_setup.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/package.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/ament_index/resource_index/packages/dh_ag95_description
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/cmake/dh_ag95_descriptionConfig.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/cmake/dh_ag95_descriptionConfig-version.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/dh_ag95_description/share/dh_ag95_description/package.xml

@@ -1,0 +1,9 @@
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/uninstall.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/aubo_i5h_moveit1_uninstall.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/test.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/edit_cache.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/rebuild_cache.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/list_install_components.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/install.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/install/local.dir
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/CMakeFiles/install/strip.dir

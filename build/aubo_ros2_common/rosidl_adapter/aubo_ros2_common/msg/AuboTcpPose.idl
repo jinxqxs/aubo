@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aubo_ros2_common/msg/AuboTcpPose.msg
+// generated code does not contain a copyright notice
+
+#include "aubo_ros2_common/msg/Vector3.idl"
+
+module aubo_ros2_common {
+  module msg {
+    struct AuboTcpPose {
+      aubo_ros2_common::msg::Vector3 target_position;
+
+      aubo_ros2_common::msg::Vector3 target_rotation;
+
+      aubo_ros2_common::msg::Vector3 actual_position;
+
+      aubo_ros2_common::msg::Vector3 actual_rotation;
+    };
+  };
+};

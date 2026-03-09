@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/src/ros_arm/launch/aubo_i5h_gz.launch.py

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action/aubo_ros2_trajectory_action" "TARGETS" "aubo_ros2_trajectory_action" "DESTINATION" "lib/aubo_ros2_trajectory_action")

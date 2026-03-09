@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "aubo_ros2_common/srv/AuboArmControl_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result_code",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "aubo_ros2_common/srv/AuboArmControl_Response",
+      "hash_string": "RIHS01_2e0dec8c4bf3a965579f0dada69756c36c76b2c3bb4d4cc5a718d363a9a320ed"
+    }
+  ]
+}

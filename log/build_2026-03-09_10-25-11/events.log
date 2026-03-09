@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (-) JobUnselected: {'identifier': 'aubo_description'}
+[0.000680] (-) JobUnselected: {'identifier': 'aubo_i5h_moveit1'}
+[0.000975] (-) JobUnselected: {'identifier': 'aubo_ros2_common'}
+[0.001019] (-) JobUnselected: {'identifier': 'aubo_ros2_driver'}
+[0.001037] (-) JobUnselected: {'identifier': 'aubo_ros2_trajectory_action'}
+[0.001103] (-) JobUnselected: {'identifier': 'dh_ag95_description'}
+[0.001165] (-) JobUnselected: {'identifier': 'dh_gripper_driver'}
+[0.001207] (-) JobUnselected: {'identifier': 'ros_arm'}
+[0.001503] (-) EventReactorShutdown: {}

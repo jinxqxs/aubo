@@ -1,0 +1,4 @@
+source;share/dh_ag95_description/local_setup.bash
+source;share/dh_ag95_description/local_setup.dsv
+source;share/dh_ag95_description/local_setup.sh
+source;share/dh_ag95_description/local_setup.zsh

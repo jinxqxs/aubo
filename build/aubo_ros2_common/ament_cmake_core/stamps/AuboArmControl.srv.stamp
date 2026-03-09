@@ -1,0 +1,10 @@
+string cmd
+string type
+float64[] tcp_offset
+float64 payload
+int16 collision_level
+float64[] joints
+float64 speed_fraction
+---
+bool result
+string result_code

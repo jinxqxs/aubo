@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_typesupport_introspection_cpp/aubo_ros2_common/msg/detail/aubo_tcp_pose__rosidl_typesupport_introspection_cpp.hpp

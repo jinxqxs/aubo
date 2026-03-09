@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_generator_py/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_c.so" "TARGETS" "aubo_ros2_common_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/aubo_ros2_common")

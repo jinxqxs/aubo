@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_typesupport_fastrtps_cpp/aubo_ros2_common/msg/detail/aubo_joint_states__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/src/aubo_ros2_driver/lib/aubo_sdk-0.23.1-Linux_x86_64+71831e1/lib/cmake/aubo_sdk/aubo_sdkTargets-release.cmake

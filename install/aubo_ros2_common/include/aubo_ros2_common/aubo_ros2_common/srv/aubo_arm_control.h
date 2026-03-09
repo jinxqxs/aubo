@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_generator_c/aubo_ros2_common/srv/aubo_arm_control.h

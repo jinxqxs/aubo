@@ -1,0 +1,8 @@
+source;share/aubo_ros2_trajectory_action/hook/cmake_prefix_path.ps1
+source;share/aubo_ros2_trajectory_action/hook/cmake_prefix_path.dsv
+source;share/aubo_ros2_trajectory_action/hook/cmake_prefix_path.sh
+source;share/aubo_ros2_trajectory_action/local_setup.bash
+source;share/aubo_ros2_trajectory_action/local_setup.dsv
+source;share/aubo_ros2_trajectory_action/local_setup.ps1
+source;share/aubo_ros2_trajectory_action/local_setup.sh
+source;share/aubo_ros2_trajectory_action/local_setup.zsh

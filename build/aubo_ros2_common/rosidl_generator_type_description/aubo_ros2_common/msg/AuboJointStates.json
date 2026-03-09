@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "aubo_ros2_common/msg/AuboJointStates",
+      "fields": [
+        {
+          "name": "target_current",
+          "type": {
+            "type_id": 148,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "actual_current",
+          "type": {
+            "type_id": 148,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "target_position",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "actual_position",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "aubo_ros2_common/msg/AuboJointStates",
+      "hash_string": "RIHS01_3f62181bc320efb8f00e366598a57a1b336de4805ba440cf4ce3220ec35ab46f"
+    }
+  ]
+}

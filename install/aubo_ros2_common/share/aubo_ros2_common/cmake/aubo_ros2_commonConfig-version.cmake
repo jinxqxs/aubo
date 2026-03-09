@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/ament_cmake_core/aubo_ros2_commonConfig-version.cmake

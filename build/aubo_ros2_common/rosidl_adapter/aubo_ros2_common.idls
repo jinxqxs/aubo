@@ -1,0 +1,6 @@
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/Vector3.idl
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboJointStates.idl
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboTcpPose.idl
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboArmEvent.idl
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:msg/AuboArmStates.idl
+/home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_adapter/aubo_ros2_common:srv/AuboArmControl.idl

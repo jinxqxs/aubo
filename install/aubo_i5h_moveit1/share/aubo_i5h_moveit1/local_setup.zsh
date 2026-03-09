@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1/ament_cmake_environment_hooks/local_setup.zsh

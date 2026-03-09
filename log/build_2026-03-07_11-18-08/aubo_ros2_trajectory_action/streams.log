@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action -- -j12 -l12
+[0.119s] [ 25%] [32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_trajectory_action.cpp.o[0m
+[2.762s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:[m[K In constructor ‘[01m[Kaubo_ros2_trajectory_action::JointTrajectoryAction::[01;32m[KJointTrajectoryAction[m[K(std::string)[m[K’:
+[2.762s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:19:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontroller_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.762s]    19 | TrajectoryAction::JointTrajectoryAction([01;35m[Kstd::string controller_name[m[K):Node("aubo_ros2_trajectory_action")
+[2.762s]       |                                         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[2.762s] 
+[2.772s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse aubo_ros2_trajectory_action::JointTrajectoryAction::[01;32m[KhandleCancel[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[2.773s] [01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:123:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.773s]   123 | ::handleCancel([01;35m[Kconst std::shared_ptr<GoalHandleFjt> goal_handle[m[K)
+[2.773s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.773s] 
+[11.938s] [ 50%] [32m[1mLinking CXX executable aubo_ros2_trajectory_action[0m
+[12.466s] [100%] Built target aubo_ros2_trajectory_action
+[12.485s] Invoked command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action -- -j12 -l12
+[12.499s] Invoking command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --install /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action
+[12.511s] -- Install configuration: ""
+[12.511s] -- Execute custom install script
+[12.513s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/lib/aubo_ros2_trajectory_action/aubo_ros2_trajectory_action
+[12.528s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/ament_index/resource_index/package_run_dependencies/aubo_ros2_trajectory_action
+[12.543s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/ament_index/resource_index/parent_prefix_path/aubo_ros2_trajectory_action
+[12.559s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/ament_prefix_path.sh
+[12.575s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/ament_prefix_path.dsv
+[12.590s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/path.sh
+[12.608s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/path.dsv
+[12.629s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.bash
+[12.650s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.sh
+[12.670s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.zsh
+[12.687s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.dsv
+[12.703s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/package.dsv
+[12.719s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/ament_index/resource_index/packages/aubo_ros2_trajectory_action
+[12.735s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/cmake/aubo_ros2_trajectory_actionConfig.cmake
+[12.750s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/cmake/aubo_ros2_trajectory_actionConfig-version.cmake
+[12.766s] -- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/package.xml
+[12.784s] Invoked command in '/home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --install /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action

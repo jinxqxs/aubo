@@ -1,0 +1,8 @@
+int16 move_type
+int16 collision_level
+bool arm_power_status
+bool collision_stopped
+bool emergency_stopped
+bool singularity_stopped
+bool protective_stopped
+bool in_motion
