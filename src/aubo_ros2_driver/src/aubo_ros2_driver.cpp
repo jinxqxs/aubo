@@ -323,6 +323,36 @@ void AuboRos2Driver::armControlServiceCallback(const std::shared_ptr<aubo_ros2_c
     else
       ret = AuboErrorCodes::AUBO_BAD_STATE;
   }
+  else if (request->cmd == "SetDigitalOutput")
+    {
+        try {
+            int pin = std::stoi(request->type); // DO00 传 "0", DO01 传 "1"
+            double value = request->joints[0];
+            bool status = (value > 0.5);
+
+            // 获取 IO 控制接口
+            auto io_control = rpc_cli->getRobotInterface(robot_name)->getIoControl();
+
+            // 在 Aubo SDK 中：
+            // 引脚 0-7 属于标准数字输出 (Standard)
+            // 引脚 8-15 属于可配置数字输出 (Configurable)
+            if (pin < 8) {
+                ret = io_control->setStandardDigitalOutput(pin, status);
+            } else {
+                ret = io_control->setConfigurableDigitalOutput(pin - 8, status);
+            }
+
+            if (ret == AuboErrorCodes::AUBO_OK) {
+                RCLCPP_INFO(this->get_logger(), "IO设置成功: DO%02d -> %s", pin, (status ? "ON" : "OFF"));
+            } else {
+                RCLCPP_ERROR(this->get_logger(), "IO设置失败，错误码: %d", ret);
+            }
+        } catch (const std::exception& e) {
+            RCLCPP_ERROR(this->get_logger(), "IO参数解析异常: %s", e.what());
+            ret = AuboErrorCodes::AUBO_BAD_STATE;
+        }
+    }
+
   else if (request->cmd == "setCollisionLevel")
   {
     ret = rpc_cli->getRobotInterface(robot_name)->getRobotConfig()->setCollisionLevel(request->collision_level);

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "aubo_ros2_common/msg/detail/aubo_joint_states__type_support.h"
-#include "aubo_ros2_common/msg/detail/aubo_joint_states__functions.h"
 #include "aubo_ros2_common/msg/detail/aubo_joint_states__struct.h"
+#include "aubo_ros2_common/msg/detail/aubo_joint_states__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "aubo_ros2_common/msg/detail/aubo_joint_states__functions.h"
 
 #ifdef __cplusplus
 extern "C"

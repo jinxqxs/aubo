@@ -26,6 +26,8 @@ setup(
         'console_scripts': [
             'pick_drop = ros_arm.pick_drop:main',
             'pick_drop2 = ros_arm.pick_drop2:main',
+            'pick_drop_sim=ros_arm.pick_drop_sim:main',
+            'pick_drop_merge=ros_arm.pick_drop_merge:main',
             'trajectory_forwarder = ros_arm.trajectory_forwarder:main',
         ],
     },

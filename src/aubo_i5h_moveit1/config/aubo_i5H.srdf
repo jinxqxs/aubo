@@ -29,12 +29,13 @@
         <joint name="wrist3_joint" value="0"/>
     </group_state>
     <group_state name="close" group="hand">
-        <joint name="afinger1_joint" value="0.03"/>
+        <joint name="afinger1_joint" value="0.025"/>
     </group_state>
     <group_state name="open" group="hand">
-        <joint name="afinger1_joint" value="-0.02"/>
+        <joint name="afinger1_joint" value="-0.01"/>
     </group_state>
 
+    <passive_joint name="afinger1_joint" />
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="end_effort" parent_link="wrist3_Link" group="hand"/>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->

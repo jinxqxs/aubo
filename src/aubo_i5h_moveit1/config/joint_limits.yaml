@@ -5,46 +5,46 @@
 default_velocity_scaling_factor: 0.1
 default_acceleration_scaling_factor: 0.1
 
-# Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
+# Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, 1ax_acceleration]
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
   afinger1_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0  #0.5
   afinger2_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0
   foreArm_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0
   shoulder_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0
   upperArm_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0
   wrist1_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0
   wrist2_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0
   wrist3_joint:
     has_velocity_limits: true
-    max_velocity: 1.5
+    max_velocity: 2.0
     has_acceleration_limits: true
-    max_acceleration: 0.5
+    max_acceleration: 2.0

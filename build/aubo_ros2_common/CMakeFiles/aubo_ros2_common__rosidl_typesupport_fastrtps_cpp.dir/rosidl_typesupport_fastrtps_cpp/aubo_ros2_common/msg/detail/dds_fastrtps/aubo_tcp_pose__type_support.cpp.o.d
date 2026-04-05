@@ -98,7 +98,8 @@ CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupp
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/array \
  /usr/include/c++/13/compare /usr/include/c++/13/bits/range_access.h \
- /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
+ /usr/include/c++/13/cstdint /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
  /usr/include/c++/13/bits/new_allocator.h \
@@ -188,8 +189,7 @@ CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupp
  /home/autumn/srtp_arm_ws/build/aubo_ros2_common/rosidl_generator_cpp/aubo_ros2_common/msg/detail/vector3__struct.hpp \
  /opt/ros/jazzy/include/fastcdr/fastcdr/Cdr.h /usr/include/c++/13/bitset \
  /usr/include/c++/13/cassert /usr/include/assert.h \
- /usr/include/c++/13/cstdint /usr/include/c++/13/functional \
- /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
  /usr/include/c++/13/bits/hashtable.h \

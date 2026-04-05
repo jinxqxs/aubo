@@ -1,0 +1,1 @@
+/home/autumn/srtp_arm_ws/src/ros_arm/launch/pick_drop_sim.launch.py

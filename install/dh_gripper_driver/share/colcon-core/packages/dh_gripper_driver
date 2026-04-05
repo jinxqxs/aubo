@@ -1,1 +1,0 @@
-gripper_controllers:hardware_interface:joint_state_broadcaster:lifecycle_msgs:pluginlib:rclcpp:rclcpp_lifecycle:serial

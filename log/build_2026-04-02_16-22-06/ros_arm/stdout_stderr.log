@@ -1,0 +1,35 @@
+running develop
+running egg_info
+creating ros_arm.egg-info
+writing ros_arm.egg-info/PKG-INFO
+writing dependency_links to ros_arm.egg-info/dependency_links.txt
+writing entry points to ros_arm.egg-info/entry_points.txt
+writing requirements to ros_arm.egg-info/requires.txt
+writing top-level names to ros_arm.egg-info/top_level.txt
+writing manifest file 'ros_arm.egg-info/SOURCES.txt'
+reading manifest file 'ros_arm.egg-info/SOURCES.txt'
+writing manifest file 'ros_arm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages/ros-arm.egg-link (link to .)
+Installing pick_drop script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+Installing pick_drop2 script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+Installing pick_drop_sim script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+Installing pick_drop_test script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+Installing trajectory_forwarder script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+
+Installed /home/autumn/srtp_arm_ws/build/ros_arm
+running symlink_data
+creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index
+creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index/resource_index
+creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index/resource_index/packages
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/resource/ros_arm -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index/resource_index/packages
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/package.xml -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm
+creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/launch/pick_drop.launch.py -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/launch/aubo_i5h_gz1.launch.py -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/launch/pick_drop_sim.launch.py -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/moveit_cpp.yaml -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/case.urdf -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/joint_names.yaml -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/box.sdf -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config

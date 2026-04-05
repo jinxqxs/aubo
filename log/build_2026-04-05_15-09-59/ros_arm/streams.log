@@ -1,0 +1,21 @@
+[1.109s] Invoking command in '/home/autumn/srtp_arm_ws/build/ros_arm': PYTHONPATH=/home/autumn/srtp_arm_ws/build/ros_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autumn/srtp_arm_ws/build/ros_arm/build --no-deps symlink_data
+[1.407s] running develop
+[1.601s] running egg_info
+[1.618s] writing ros_arm.egg-info/PKG-INFO
+[1.618s] writing dependency_links to ros_arm.egg-info/dependency_links.txt
+[1.619s] writing entry points to ros_arm.egg-info/entry_points.txt
+[1.619s] writing requirements to ros_arm.egg-info/requires.txt
+[1.619s] writing top-level names to ros_arm.egg-info/top_level.txt
+[1.656s] reading manifest file 'ros_arm.egg-info/SOURCES.txt'
+[1.657s] writing manifest file 'ros_arm.egg-info/SOURCES.txt'
+[1.676s] running build_ext
+[1.677s] Creating /home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages/ros-arm.egg-link (link to .)
+[1.678s] Installing pick_drop script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.678s] Installing pick_drop2 script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.678s] Installing pick_drop_merge script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.678s] Installing pick_drop_sim script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.679s] Installing trajectory_forwarder script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.679s] 
+[1.679s] Installed /home/autumn/srtp_arm_ws/build/ros_arm
+[1.679s] running symlink_data
+[1.713s] Invoked command in '/home/autumn/srtp_arm_ws/build/ros_arm' returned '0': PYTHONPATH=/home/autumn/srtp_arm_ws/build/ros_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autumn/srtp_arm_ws/build/ros_arm/build --no-deps symlink_data

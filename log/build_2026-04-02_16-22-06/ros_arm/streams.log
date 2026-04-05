@@ -1,0 +1,37 @@
+[1.158s] Invoking command in '/home/autumn/srtp_arm_ws/build/ros_arm': PYTHONPATH=/home/autumn/srtp_arm_ws/build/ros_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autumn/srtp_arm_ws/build/ros_arm/build --no-deps symlink_data
+[1.580s] running develop
+[1.863s] running egg_info
+[1.863s] creating ros_arm.egg-info
+[1.893s] writing ros_arm.egg-info/PKG-INFO
+[1.893s] writing dependency_links to ros_arm.egg-info/dependency_links.txt
+[1.893s] writing entry points to ros_arm.egg-info/entry_points.txt
+[1.894s] writing requirements to ros_arm.egg-info/requires.txt
+[1.894s] writing top-level names to ros_arm.egg-info/top_level.txt
+[1.894s] writing manifest file 'ros_arm.egg-info/SOURCES.txt'
+[1.944s] reading manifest file 'ros_arm.egg-info/SOURCES.txt'
+[1.945s] writing manifest file 'ros_arm.egg-info/SOURCES.txt'
+[1.973s] running build_ext
+[1.973s] Creating /home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages/ros-arm.egg-link (link to .)
+[1.975s] Installing pick_drop script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.976s] Installing pick_drop2 script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.976s] Installing pick_drop_sim script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.976s] Installing pick_drop_test script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.976s] Installing trajectory_forwarder script to /home/autumn/srtp_arm_ws/install/ros_arm/lib/ros_arm
+[1.977s] 
+[1.977s] Installed /home/autumn/srtp_arm_ws/build/ros_arm
+[1.977s] running symlink_data
+[1.977s] creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index
+[1.978s] creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index/resource_index
+[1.978s] creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index/resource_index/packages
+[1.979s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/resource/ros_arm -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ament_index/resource_index/packages
+[1.979s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/package.xml -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm
+[1.979s] creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+[1.980s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/launch/pick_drop.launch.py -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+[1.981s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/launch/aubo_i5h_gz1.launch.py -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+[1.981s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/launch/pick_drop_sim.launch.py -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/launch
+[1.982s] creating /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+[1.982s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/moveit_cpp.yaml -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+[1.983s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/case.urdf -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+[1.983s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/joint_names.yaml -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+[1.984s] symbolically linking /home/autumn/srtp_arm_ws/build/ros_arm/config/box.sdf -> /home/autumn/srtp_arm_ws/install/ros_arm/share/ros_arm/config
+[2.073s] Invoked command in '/home/autumn/srtp_arm_ws/build/ros_arm' returned '0': PYTHONPATH=/home/autumn/srtp_arm_ws/build/ros_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autumn/srtp_arm_ws/install/ros_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autumn/srtp_arm_ws/build/ros_arm/build --no-deps symlink_data

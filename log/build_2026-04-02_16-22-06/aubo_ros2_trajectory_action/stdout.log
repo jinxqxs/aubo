@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found control_msgs: 5.7.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Configuring done (4.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/autumn/srtp_arm_ws/build/aubo_ros2_trajectory_action
+[ 50%] [32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_trajectory_action.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aubo_ros2_trajectory_action.dir/src/aubo_ros2_uniform_sample_filter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable aubo_ros2_trajectory_action[0m
+[100%] Built target aubo_ros2_trajectory_action
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/lib/aubo_ros2_trajectory_action/aubo_ros2_trajectory_action
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/ament_index/resource_index/package_run_dependencies/aubo_ros2_trajectory_action
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/ament_index/resource_index/parent_prefix_path/aubo_ros2_trajectory_action
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/ament_prefix_path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/ament_prefix_path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/environment/path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.bash
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.zsh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/local_setup.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/package.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/ament_index/resource_index/packages/aubo_ros2_trajectory_action
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/cmake/aubo_ros2_trajectory_actionConfig.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/cmake/aubo_ros2_trajectory_actionConfig-version.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_trajectory_action/share/aubo_ros2_trajectory_action/package.xml

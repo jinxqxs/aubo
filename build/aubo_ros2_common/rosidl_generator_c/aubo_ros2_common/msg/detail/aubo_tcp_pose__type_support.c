@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "aubo_ros2_common/msg/detail/aubo_tcp_pose__functions.h"
 #include "aubo_ros2_common/msg/detail/aubo_tcp_pose__type_support.h"
 #include "aubo_ros2_common/msg/detail/aubo_tcp_pose__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "aubo_ros2_common/msg/detail/aubo_tcp_pose__functions.h"
 
 #ifdef __cplusplus
 extern "C"

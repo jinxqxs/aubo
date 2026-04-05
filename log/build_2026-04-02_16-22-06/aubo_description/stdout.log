@@ -1,0 +1,49 @@
+running develop
+running egg_info
+creating aubo_description.egg-info
+writing aubo_description.egg-info/PKG-INFO
+writing dependency_links to aubo_description.egg-info/dependency_links.txt
+writing requirements to aubo_description.egg-info/requires.txt
+writing top-level names to aubo_description.egg-info/top_level.txt
+writing manifest file 'aubo_description.egg-info/SOURCES.txt'
+reading manifest file 'aubo_description.egg-info/SOURCES.txt'
+writing manifest file 'aubo_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/autumn/srtp_arm_ws/install/aubo_description/lib/python3.12/site-packages/aubo-description.egg-link (link to .)
+
+Installed /home/autumn/srtp_arm_ws/build/aubo_description
+running symlink_data
+creating /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index
+creating /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index/resource_index
+creating /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index/resource_index/packages
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/resource/aubo_description -> /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index/resource_index/packages
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/package.xml -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description
+creating /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/urdf
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/urdf/aubo_i5H.urdf -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/urdf
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/urdf/aubo_i5.srdf -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/urdf
+creating /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes
+creating /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link6.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link1.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link5.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link3.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link0.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link3.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link2.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link1.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link4.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link5.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link0.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link4.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link6.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link2.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link3.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link1.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link0.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link4.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link5.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/abase_link.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link6.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link2.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/afinger1_Link.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/afinger2_Link.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H

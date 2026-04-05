@@ -17,6 +17,7 @@ moveit_simple_controller_manager:
       - wrist1_joint
       - wrist2_joint
       - wrist3_joint
+
   hand_controller:
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
