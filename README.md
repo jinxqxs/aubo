@@ -3,6 +3,8 @@ ROS 2 Jazzy 机械臂仿真与控制项目
 ![alt text](https://img.shields.io/badge/Ubuntu-24.04-orange)
 ![alt text](https://img.shields.io/badge/License-MIT-green.svg)
 
+seconde版本为真实机械臂抓取版本，main为仿真版本
+
 本项目是一个基于 ROS 2 Jazzy 和 Ubuntu 24.04 的机械臂开发项目，集成了 MoveIt 2 运动规划、Gazebo 物理仿真以及 ros2_control 硬件控制。
 
 🚀 最新环境支持：适配 Ubuntu 24.04 和 ROS 2 Jazzy Jalisco。
