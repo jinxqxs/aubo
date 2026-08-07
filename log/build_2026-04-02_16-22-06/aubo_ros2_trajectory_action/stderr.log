@@ -1,0 +1,8 @@
+[01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:[m[K In constructor ‘[01m[Kaubo_ros2_trajectory_action::JointTrajectoryAction::[01;32m[KJointTrajectoryAction[m[K(std::string)[m[K’:
+[01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:19:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontroller_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   19 | JointTrajectoryAction::JointTrajectoryAction([01;35m[Kstd::string controller_name[m[K):Node("aubo_ros2_trajectory_action")
+      |                                              [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse aubo_ros2_trajectory_action::JointTrajectoryAction::[01;32m[KhandleCancel[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/home/autumn/srtp_arm_ws/src/aubo_ros2_trajectory_action/src/aubo_ros2_trajectory_action.cpp:123:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 | rclcpp_action::CancelResponse JointTrajectoryAction::handleCancel([01;35m[Kconst std::shared_ptr<GoalHandleFjt> goal_handle[m[K)
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K

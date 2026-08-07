@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (2.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/autumn/srtp_arm_ws/build/aubo_i5h_moveit1
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/ament_index/resource_index/package_run_dependencies/aubo_i5h_moveit1
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/ament_index/resource_index/parent_prefix_path/aubo_i5h_moveit1
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/environment/ament_prefix_path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/environment/ament_prefix_path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/environment/path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/environment/path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/local_setup.bash
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/local_setup.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/local_setup.zsh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/local_setup.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/package.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/ament_index/resource_index/packages/aubo_i5h_moveit1
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/cmake/aubo_i5h_moveit1Config.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/cmake/aubo_i5h_moveit1Config-version.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/package.xml
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/demo.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/move_group.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/moveit_rviz.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/rsp.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/setup_assistant.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/spawn_controllers.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/launch/warehouse_db.launch.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/aubo_i5H.ros2_control.xacro
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/aubo_i5H.srdf
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/aubo_i5H.urdf.xacro
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/initial_positions.yaml
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/joint_limits.yaml
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/kinematics.yaml
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/moveit.rviz
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/moveit_controllers.yaml
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/ros2_controllers.yaml
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/config/world.sdf
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_i5h_moveit1/share/aubo_i5h_moveit1/.setup_assistant

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
+#include "aubo_ros2_common/msg/detail/aubo_arm_event__type_support.h"
 #include "aubo_ros2_common/msg/detail/aubo_arm_event__struct.h"
 #include "aubo_ros2_common/msg/detail/aubo_arm_event__functions.h"
-#include "aubo_ros2_common/msg/detail/aubo_arm_event__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

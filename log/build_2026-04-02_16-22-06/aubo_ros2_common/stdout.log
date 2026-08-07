@@ -1,0 +1,353 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (8.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/autumn/srtp_arm_ws/build/aubo_ros2_common
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_aubo_ros2_common
+running egg_info
+creating aubo_ros2_common.egg-info
+[  1%] Built target aubo_ros2_common__rosidl_generator_type_description
+writing aubo_ros2_common.egg-info/PKG-INFO
+writing dependency_links to aubo_ros2_common.egg-info/dependency_links.txt
+writing top-level names to aubo_ros2_common.egg-info/top_level.txt
+writing manifest file 'aubo_ros2_common.egg-info/SOURCES.txt'
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'aubo_ros2_common.egg-info/SOURCES.txt'
+writing manifest file 'aubo_ros2_common.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_aubo_ros2_common_egg
+[  3%] Built target aubo_ros2_common__cpp
+[  5%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_joint_states__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/vector3__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_joint_states__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/vector3__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_joint_states__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_tcp_pose__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/vector3__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_tcp_pose__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_tcp_pose__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_arm_event__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_arm_event__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_arm_event__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_arm_states__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_arm_states__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/msg/detail/aubo_arm_states__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/srv/detail/aubo_arm_control__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/srv/detail/aubo_arm_control__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_c.dir/rosidl_generator_c/aubo_ros2_common/srv/detail/aubo_arm_control__functions.c.o[0m
+[ 26%] [32m[1mLinking C shared library libaubo_ros2_common__rosidl_generator_c.so[0m
+[ 26%] Built target aubo_ros2_common__rosidl_generator_c
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aubo_ros2_common/msg/vector3__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aubo_ros2_common/msg/aubo_arm_states__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aubo_ros2_common/msg/aubo_tcp_pose__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aubo_ros2_common/msg/aubo_joint_states__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_c.dir/rosidl_typesupport_c/aubo_ros2_common/msg/aubo_joint_states__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aubo_ros2_common/srv/aubo_arm_control__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aubo_ros2_common/msg/aubo_arm_event__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_c.dir/rosidl_typesupport_c/aubo_ros2_common/msg/vector3__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_c.dir/rosidl_typesupport_c/aubo_ros2_common/msg/aubo_tcp_pose__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_c.dir/rosidl_typesupport_c/aubo_ros2_common/msg/aubo_arm_event__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_c.dir/rosidl_typesupport_c/aubo_ros2_common/msg/aubo_arm_states__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aubo_ros2_common/msg/detail/vector3__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_c.dir/rosidl_typesupport_c/aubo_ros2_common/srv/aubo_arm_control__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aubo_ros2_common/msg/detail/aubo_joint_states__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aubo_ros2_common/msg/detail/vector3__type_support.c.o[0m
+[ 52%] [32m[1mLinking CXX shared library libaubo_ros2_common__rosidl_typesupport_c.so[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aubo_ros2_common/msg/detail/aubo_tcp_pose__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aubo_ros2_common/msg/detail/dds_fastrtps/vector3__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aubo_ros2_common/msg/detail/dds_fastrtps/aubo_joint_states__type_support.cpp.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aubo_ros2_common/msg/detail/aubo_joint_states__type_support.c.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aubo_ros2_common/msg/detail/aubo_arm_event__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aubo_ros2_common/msg/detail/vector3__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aubo_ros2_common/msg/detail/aubo_tcp_pose__type_support.c.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aubo_ros2_common/msg/detail/dds_fastrtps/aubo_tcp_pose__type_support.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aubo_ros2_common/msg/detail/aubo_arm_event__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aubo_ros2_common/msg/detail/aubo_arm_states__type_support.c.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aubo_ros2_common/msg/detail/aubo_arm_states__type_support.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libaubo_ros2_common__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target aubo_ros2_common__rosidl_typesupport_c
+[ 67%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aubo_ros2_common/srv/detail/aubo_arm_control__type_support.c.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aubo_ros2_common/msg/detail/aubo_joint_states__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aubo_ros2_common/srv/detail/aubo_arm_control__type_support.cpp.o[0m
+[ 71%] [32m[1mLinking C shared library libaubo_ros2_common__rosidl_typesupport_introspection_c.so[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aubo_ros2_common/msg/detail/dds_fastrtps/aubo_arm_event__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aubo_ros2_common/msg/detail/dds_fastrtps/aubo_arm_states__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aubo_ros2_common/msg/detail/aubo_tcp_pose__type_support_c.cpp.o[0m
+[ 75%] Built target aubo_ros2_common__rosidl_typesupport_cpp
+[ 76%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aubo_ros2_common/srv/detail/dds_fastrtps/aubo_arm_control__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aubo_ros2_common/msg/detail/aubo_arm_event__type_support_c.cpp.o[0m
+[ 77%] Built target aubo_ros2_common__rosidl_typesupport_introspection_c
+[ 78%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aubo_ros2_common/msg/detail/aubo_arm_states__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/aubo_ros2_common__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aubo_ros2_common/srv/detail/aubo_arm_control__type_support_c.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libaubo_ros2_common__rosidl_typesupport_introspection_cpp.so[0m
+[ 80%] Built target aubo_ros2_common__rosidl_typesupport_introspection_cpp
+[ 82%] [32m[1mLinking CXX shared library libaubo_ros2_common__rosidl_typesupport_fastrtps_c.so[0m
+[ 83%] [32m[1mLinking CXX shared library libaubo_ros2_common__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 83%] Built target aubo_ros2_common__rosidl_typesupport_fastrtps_c
+[ 83%] Built target aubo_ros2_common__rosidl_typesupport_fastrtps_cpp
+[ 83%] Built target aubo_ros2_common
+[ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 84%] Built target aubo_ros2_common__py
+[ 86%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_py.dir/rosidl_generator_py/aubo_ros2_common/msg/_aubo_joint_states_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_py.dir/rosidl_generator_py/aubo_ros2_common/msg/_vector3_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_py.dir/rosidl_generator_py/aubo_ros2_common/msg/_aubo_tcp_pose_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_py.dir/rosidl_generator_py/aubo_ros2_common/msg/_aubo_arm_states_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_py.dir/rosidl_generator_py/aubo_ros2_common/msg/_aubo_arm_event_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/aubo_ros2_common__rosidl_generator_py.dir/rosidl_generator_py/aubo_ros2_common/srv/_aubo_arm_control_s.c.o[0m
+[ 92%] [32m[1mLinking C shared library libaubo_ros2_common__rosidl_generator_py.so[0m
+[ 92%] Built target aubo_ros2_common__rosidl_generator_py
+[ 96%] [32mBuilding C object CMakeFiles/aubo_ros2_common_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/aubo_ros2_common/_aubo_ros2_common_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/aubo_ros2_common_s__rosidl_typesupport_c.dir/rosidl_generator_py/aubo_ros2_common/_aubo_ros2_common_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/aubo_ros2_common_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/aubo_ros2_common/_aubo_ros2_common_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target aubo_ros2_common_s__rosidl_typesupport_introspection_c
+[100%] Built target aubo_ros2_common_s__rosidl_typesupport_c
+[100%] Built target aubo_ros2_common_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/ament_index/resource_index/rosidl_interfaces/aubo_ros2_common
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/Vector3.json
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboJointStates.json
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboTcpPose.json
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboArmEvent.json
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboArmStates.json
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/srv/AuboArmControl.json
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_arm_event.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_arm_states.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_joint_states.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_tcp_pose.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__functions.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__struct.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__type_support.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__functions.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__struct.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__type_support.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__functions.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__struct.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__type_support.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__functions.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__struct.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__type_support.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__functions.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__struct.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__type_support.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/vector3.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/aubo_arm_control.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__functions.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__struct.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__type_support.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/library_path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/library_path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_arm_event.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_arm_states.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_joint_states.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/aubo_tcp_pose.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__builder.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__struct.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__traits.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__type_support.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__builder.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__struct.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__traits.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__type_support.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__builder.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__struct.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__traits.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__type_support.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__builder.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__struct.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__traits.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__type_support.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__builder.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__struct.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__traits.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__type_support.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/vector3.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/aubo_arm_control.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__builder.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__struct.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__traits.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__type_support.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_event__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_arm_states__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_joint_states__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/aubo_tcp_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/aubo_ros2_common/srv/detail/aubo_arm_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/pythonpath.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/pythonpath.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common-1.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common-1.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/__init__.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/_aubo_ros2_common_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/_aubo_ros2_common_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/_aubo_ros2_common_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_c.so
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/__init__.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_arm_event.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_arm_event_s.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_arm_states.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_arm_states_s.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_joint_states.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_joint_states_s.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_tcp_pose.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_tcp_pose_s.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_vector3.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_vector3_s.c
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/srv/__init__.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/srv/_aubo_arm_control.py
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/srv/_aubo_arm_control_s.c
+-- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/aubo_ros2_common_s__rosidl_typesupport_c.so
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/Vector3.idl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboJointStates.idl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboTcpPose.idl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboArmEvent.idl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboArmStates.idl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/srv/AuboArmControl.idl
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/Vector3.msg
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboJointStates.msg
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboTcpPose.msg
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboArmEvent.msg
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/msg/AuboArmStates.msg
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/srv/AuboArmControl.srv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/atomicops.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/readerwritercircularbuffer.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/readerwriterqueue.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/include/aubo_ros2_common/threadSafeQueue.h
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/ament_index/resource_index/package_run_dependencies/aubo_ros2_common
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/ament_index/resource_index/parent_prefix_path/aubo_ros2_common
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/path.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/environment/path.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/local_setup.bash
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/local_setup.sh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/local_setup.zsh
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/local_setup.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/package.dsv
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/ament_index/resource_index/packages/aubo_ros2_common
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_commonConfig.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_commonConfig-version.cmake
+-- Symlinking: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/package.xml
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_generator_c.so" to ""
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_c.so" to ""
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_typesupport_cpp.so" to ""
+Listing '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/__init__.py'...
+Listing '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/__init__.py'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_arm_event.py'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_arm_states.py'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_joint_states.py'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_aubo_tcp_pose.py'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/msg/_vector3.py'...
+Listing '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/srv'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/srv/__init__.py'...
+Compiling '/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/python3.12/site-packages/aubo_ros2_common/srv/_aubo_arm_control.py'...
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/autumn/srtp_arm_ws/install/aubo_ros2_common/lib/libaubo_ros2_common__rosidl_generator_py.so" to ""
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_generator_cExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_generator_cppExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_cExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/aubo_ros2_common__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_generator_pyExport.cmake
+-- Installing: /home/autumn/srtp_arm_ws/install/aubo_ros2_common/share/aubo_ros2_common/cmake/export_aubo_ros2_common__rosidl_generator_pyExport-noconfig.cmake

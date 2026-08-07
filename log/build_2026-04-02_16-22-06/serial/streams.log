@@ -1,0 +1,81 @@
+[0.441s] Invoking command in '/home/autumn/srtp_arm_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake /home/autumn/srtp_arm_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autumn/srtp_arm_ws/install/serial
+[0.632s] -- The C compiler identification is GNU 13.3.0
+[1.383s] -- The CXX compiler identification is GNU 13.3.0
+[2.026s] -- Detecting C compiler ABI info
+[2.361s] -- Detecting C compiler ABI info - done
+[2.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.373s] -- Detecting C compile features
+[2.374s] -- Detecting C compile features - done
+[2.491s] -- Detecting CXX compiler ABI info
+[2.880s] -- Detecting CXX compiler ABI info - done
+[2.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.896s] -- Detecting CXX compile features
+[2.896s] -- Detecting CXX compile features - done
+[2.905s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.163s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.280s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.387s] -- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[3.419s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[3.430s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.435s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.751s] -- Found Threads: TRUE  
+[3.884s] -- Configuring done (3.4s)
+[3.919s] -- Generating done (0.0s)
+[3.928s] -- Build files have been written to: /home/autumn/srtp_arm_ws/build/serial
+[3.936s] Invoked command in '/home/autumn/srtp_arm_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake /home/autumn/srtp_arm_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autumn/srtp_arm_ws/install/serial
+[3.938s] Invoking command in '/home/autumn/srtp_arm_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/serial -- -j12 -l12
+[4.027s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.027s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[4.028s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.028s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[4.028s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[4.718s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[4.790s] [ 42%] Built target serial
+[4.832s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[5.233s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.269s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[5.297s] [ 64%] Built target gtest_main
+[5.505s] [ 64%] Built target serial_example
+[8.772s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.887s] [ 71%] Built target gtest
+[8.920s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[8.920s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[9.899s] In file included from [01m[K/usr/include/boost/bind/detail/requires_cxx11.hpp:9[m[K,
+[9.899s]                  from [01m[K/usr/include/boost/bind/bind.hpp:24[m[K,
+[9.899s]                  from [01m[K/usr/include/boost/bind.hpp:29[m[K,
+[9.899s]                  from [01m[K/home/autumn/srtp_arm_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[9.899s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[9.899s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[9.899s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.222s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[10.360s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[10.605s] [100%] Built target serial-test-timer
+[10.727s] [100%] Built target serial-test
+[10.752s] Invoked command in '/home/autumn/srtp_arm_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --build /home/autumn/srtp_arm_ws/build/serial -- -j12 -l12
+[10.753s] Invoking command in '/home/autumn/srtp_arm_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --install /home/autumn/srtp_arm_ws/build/serial
+[10.772s] -- Install configuration: ""
+[10.772s] -- Execute custom install script
+[10.775s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/lib/libserial.a
+[10.795s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/include/serial/serial.h
+[10.815s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/include/serial/v8stdint.h
+[10.847s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/environment/library_path.sh
+[10.867s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/environment/library_path.dsv
+[10.889s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[10.920s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[10.960s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[10.979s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[11.008s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/environment/path.sh
+[11.050s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/environment/path.dsv
+[11.089s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/local_setup.bash
+[11.122s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/local_setup.sh
+[11.155s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/local_setup.zsh
+[11.188s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/local_setup.dsv
+[11.229s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/package.dsv
+[11.274s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/ament_index/resource_index/packages/serial
+[11.303s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.329s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[11.376s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[11.409s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[11.437s] -- Symlinking: /home/autumn/srtp_arm_ws/install/serial/share/serial/package.xml
+[11.476s] Invoked command in '/home/autumn/srtp_arm_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autumn/srtp_arm_ws/install/ros_arm:/home/autumn/srtp_arm_ws/install/aubo_description:/opt/ros/jazzy /usr/bin/cmake --install /home/autumn/srtp_arm_ws/build/serial

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "aubo_ros2_common/msg/detail/vector3__type_support.h"
 #include "aubo_ros2_common/msg/detail/vector3__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "aubo_ros2_common/msg/detail/vector3__functions.h"
+#include "aubo_ros2_common/msg/detail/vector3__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

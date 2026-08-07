@@ -1,0 +1,51 @@
+[1.169s] Invoking command in '/home/autumn/srtp_arm_ws/build/aubo_description': PYTHONPATH=/home/autumn/srtp_arm_ws/build/aubo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autumn/srtp_arm_ws/install/aubo_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autumn/srtp_arm_ws/build/aubo_description/build --no-deps symlink_data
+[1.564s] running develop
+[1.853s] running egg_info
+[1.853s] creating aubo_description.egg-info
+[1.878s] writing aubo_description.egg-info/PKG-INFO
+[1.878s] writing dependency_links to aubo_description.egg-info/dependency_links.txt
+[1.879s] writing requirements to aubo_description.egg-info/requires.txt
+[1.879s] writing top-level names to aubo_description.egg-info/top_level.txt
+[1.879s] writing manifest file 'aubo_description.egg-info/SOURCES.txt'
+[1.940s] reading manifest file 'aubo_description.egg-info/SOURCES.txt'
+[1.941s] writing manifest file 'aubo_description.egg-info/SOURCES.txt'
+[1.968s] running build_ext
+[1.968s] Creating /home/autumn/srtp_arm_ws/install/aubo_description/lib/python3.12/site-packages/aubo-description.egg-link (link to .)
+[1.969s] 
+[1.969s] Installed /home/autumn/srtp_arm_ws/build/aubo_description
+[1.970s] running symlink_data
+[1.970s] creating /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index
+[1.970s] creating /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index/resource_index
+[1.971s] creating /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index/resource_index/packages
+[1.972s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/resource/aubo_description -> /home/autumn/srtp_arm_ws/install/aubo_description/share/ament_index/resource_index/packages
+[1.972s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/package.xml -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description
+[1.972s] creating /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/urdf
+[1.973s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/urdf/aubo_i5H.urdf -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/urdf
+[1.973s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/urdf/aubo_i5.srdf -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/urdf
+[1.974s] creating /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes
+[1.974s] creating /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.975s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link6.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.975s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link1.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.976s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link5.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.976s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link3.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.977s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link0.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.978s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link3.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.978s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link2.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.979s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link1.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.979s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link4.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.980s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link5.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.981s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link0.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.981s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link4.DAE -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.982s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link6.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.982s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/visual/link2.3ds -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.983s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link3.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.983s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link1.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.984s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link0.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.985s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link4.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.985s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link5.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.986s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/abase_link.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.987s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link6.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.987s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/link2.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.988s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/afinger1_Link.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[1.988s] symbolically linking /home/autumn/srtp_arm_ws/build/aubo_description/meshes/aubo_i5H/collision/afinger2_Link.STL -> /home/autumn/srtp_arm_ws/install/aubo_description/share/aubo_description/meshes/aubo_i5H
+[2.063s] Invoked command in '/home/autumn/srtp_arm_ws/build/aubo_description' returned '0': PYTHONPATH=/home/autumn/srtp_arm_ws/build/aubo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autumn/srtp_arm_ws/install/aubo_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/autumn/srtp_arm_ws/build/aubo_description/build --no-deps symlink_data

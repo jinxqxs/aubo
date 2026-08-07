@@ -6,10 +6,8 @@ controller_manager:
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-
     hand_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -30,24 +28,6 @@ arm_controller:
       - velocity
     allow_nonzero_velocity_at_trajectory_end: true
 
-         # ========== 新增/修改的关键参数（解决超时+适配Aubo驱动） ==========
-    # 1. 增加轨迹执行超时时间（默认2s→10s，避免MoveIt!提前终止）
-    goal_time: 10.0
-    # 2. 降低轨迹执行速度（适配Aubo驱动的低速要求）
-    max_velocity: 0.5  
-    max_acceleration: 0.5  
-    # 3. 放宽轨迹起始误差容忍（适配机器人回零后微小偏差）
-    allowed_start_tolerance: 0.05  # 5cm/0.05rad容忍度
-    # 4. 轨迹插值频率（匹配驱动接收频率）
-    state_publish_rate: 20.0
-    action_monitor_rate: 1.0
-    # 5. 允许轨迹分段执行（避免驱动处理压力）
-    allow_partial_joints_goal: false
-    # 6. 停止轨迹的缓冲时间（保护机器人）
-    stop_trajectory_duration: 0.5
-    execute_trajectory_timeout: 60.0  # 延长执行超时时间到60秒（远大于轨迹实际执行时间）
-    allow_trajectory_execution: true
-    wait_for_trajectory_confirmation: true  # 等待机器人确认后再下发下一个点
 
 hand_controller:
   ros__parameters:
@@ -59,7 +39,3 @@ hand_controller:
       - position
       - velocity
     allow_nonzero_velocity_at_trajectory_end: true
-
-    # 给手爪控制器也增加基础超时配置
-    goal_time: 5.0
-    allowed_start_tolerance: 0.01

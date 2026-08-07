@@ -56,6 +56,9 @@
                 </state_interface>
                 <state_interface name="velocity"/>
             </joint>
+            <joint name="afinger2_joint">
+                <state_interface name="position"/>
+            </joint>
         </ros2_control>
     </xacro:macro>
 </robot>

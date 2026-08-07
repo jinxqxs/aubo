@@ -1,1 +1,0 @@
-/home/autumn/srtp_arm_ws/src/dh_ag95_description/launch/view_dh_ag95.launch.py

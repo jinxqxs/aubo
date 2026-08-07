@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "aubo_ros2_common/srv/detail/aubo_arm_control__struct.h"
 #include "aubo_ros2_common/srv/detail/aubo_arm_control__type_support.h"
+#include "aubo_ros2_common/srv/detail/aubo_arm_control__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "aubo_ros2_common/srv/detail/aubo_arm_control__functions.h"
 
 #ifdef __cplusplus
