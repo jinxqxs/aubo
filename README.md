@@ -48,10 +48,11 @@ docker pull jinxqxs/ros_srtp:latest\
 docker run -it --rm --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" jinxqxs/ros_srtp
 
 📖 运行指南
-1. 启动仿真环境 (Gazebo + MoveIt 2)\
-ros2 launch <package_name> demo_gazebo.launch.py
-2. 运行 Python 控制脚本\
-ros2 run <package_name> <your_python_script>.py
+1.编译（先转到你的工作空间（xxx_ws）的路径下,然后:）
+colcon build --symlink-install
+source install/setup.bash
+2. 运行仿真环境 (rviz+Gazebo + MoveIt 2)\
+ros2 launch ros_arm aubo_i5h_gz1.launch.py
 
 📂 项目结构\
 code
@@ -59,9 +60,8 @@ Text
 .\
 ├── src\
 │   ├── <package_description>  # 机器人描述文件 (URDF/Mesh)\
-│   ├── <package_moveit_config> # MoveIt 配置包\
-│   ├── <package_bringup>       # 启动脚本\
-│   └── <package_scripts>       # Python 控制脚本 (moveit_py)\
+│   ├── ros_arm       # 可运行包\
+│   ├── .......
 └── README.md
 
 🤝 致谢与参考\
